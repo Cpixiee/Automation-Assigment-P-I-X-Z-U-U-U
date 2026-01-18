@@ -10,33 +10,7 @@ Proyek ini berisi migration dan seeder untuk tabel `data_mahasiswa` menggunakan 
 - `setup.bat` / `setup.sh` - Script automation untuk setup (Windows/Linux)
 - `run.bat` / `run.sh` - Script untuk menjalankan migration dan seeder (Windows/Linux)
 - `config.env` - File konfigurasi database (auto-generated oleh setup script)
-
-## Persyaratan
-
-1. **MySQL Server** - Pastikan MySQL sudah terinstall dan berjalan
-2. **Python 3.6+** - Pastikan Python sudah terinstall
-3. **phpMyAdmin** (opsional) - Untuk melihat data melalui web interface
-
-## Instalasi Otomatis (Recommended)
-
-### 🪟 Windows (Laragon/XAMPP)
-
-1. **Jalankan setup script** (akan auto-install Python jika belum ada):
-   ```cmd
-   setup.bat
-   ```
-   
-   Script akan:
-   - ✅ Mengecek dan auto-install Python (via winget/chocolatey)
-   - ✅ Install dependencies Python
-   - ✅ Detect MySQL di Laragon/XAMPP
-   - ✅ Membuat file konfigurasi `config.env`
-
-2. **Jalankan migration dan seeder**:
-   ```cmd
-   run.bat
-   ```
-
+- 
 ### 🐧 Linux (XAMPP/Laragon)
 
 1. **Beri permission execute**:
